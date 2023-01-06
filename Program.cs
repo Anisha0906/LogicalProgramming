@@ -11,7 +11,7 @@ namespace LogicalProgramming
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problems ");
-            Console.WriteLine("Enter your choice 1.Fibonacci Series 2.Perfect Number ");
+            Console.WriteLine("Enter your choice 1.Fibonacci Series 2.Perfect Number 3.Prime Number ");
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -22,6 +22,10 @@ namespace LogicalProgramming
                 case 2:
                     PerfectNumber PerfectNum = new PerfectNumber();
                     PerfectNum.CheckPerfectNumber();
+                    break;
+                case 3:
+                    PrimeNo Primenumber = new PrimeNo();
+                    Primenumber.CheckPrimeNumber();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection");

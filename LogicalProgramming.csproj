@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="FibbonacciSeries.cs" />
     <Compile Include="PerfectNumber.cs" />
+    <Compile Include="PrimeNo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
